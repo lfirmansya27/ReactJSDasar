@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import StateProps from './StatePorps';
+import Map from './Map';
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateProps />
+    <Map />
   </React.StrictMode>,
   document.getElementById('root')
 );
